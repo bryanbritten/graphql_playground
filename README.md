@@ -1,0 +1,3 @@
+This is a simple project that I spun up in preparation for an interview I had coming up. The company I was interviewing with used this tech stack, most of which I had never used before, and I wanted to become more familiar with it. It doesn't do anything impressive at all, and does not incorporate best practices, but it does resemble a fullstack application that holds data in a Postgres database, defines a GraphQL schema for both Query and Mutation, and calls that data from the client using Apollo. 
+
+My hope in sharing this code is to provide a reference point for anyone else looking to explore this tech stack, especially given that while I was writing this a lot of the tutorials I found seemed to be geared towards Django 3, whereas I was using Django 4. 

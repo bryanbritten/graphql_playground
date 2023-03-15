@@ -1,0 +1,111 @@
+[
+    {
+        "model": "books.book",
+        "pk": 1,
+        "fields": {
+            "title": "The One Thing",
+            "author_name": "Unknown",
+            "year_published": 2002,
+            "review": 3
+        }
+    },
+
+    {
+        "model": "authors.author",
+        "pk": "Unknown",
+        "fields": {
+            "year_born": "Unknown",
+            "year_died": "Unknown",
+            "country": "Unknown",
+            "books_written": 0
+        }
+    },
+
+    {
+        "model": "books.book",
+        "pk": 2,
+        "fields": {
+            "title": "Python Crash Course",
+            "author_name": "Eric Matthes",
+            "year_published": 2015,
+            "review": 5
+        }
+    },
+
+    {
+        "model": "authors.author",
+        "pk": "Eric Matthes",
+        "fields": {
+            "year_born": 1982,
+            "year_died": null,
+            "country": "Sweden",
+            "books_written": 3
+        }
+    },
+
+    {
+        "model": "books.book",
+        "pk": 3,
+        "fields": {
+            "title": "Atomic Habits",
+            "author_name": "James Clear",
+            "year_published": 2002,
+            "review": 4
+        }
+    },
+
+    {
+        "model": "authors.author",
+        "pk": "James Clear",
+        "fields": {
+            "year_born": "11 BC",
+            "year_died": "22 AD",
+            "country": "Israel",
+            "books_written": 212
+        }
+    },
+
+    {
+        "model": "books.book",
+        "pk": 4,
+        "fields": {
+            "title": "The Compound Effect",
+            "author_name": "Darren Hardy",
+            "year_published": 2010,
+            "review": 3
+        }
+    },
+
+    {
+        "model": "authors.author",
+        "pk": "Darren Hardy",
+        "fields": {
+            "year_born": 1922,
+            "year_died": 1976,
+            "country": "Denmark",
+            "books_written": 1
+        }
+    },
+
+    {
+        "model": "books.book",
+        "pk": 5,
+        "fields": {
+            "title": "Clean Code",
+            "author_name": "Robert Cecil Martin",
+            "year_published": 2008,
+            "review": 4
+        }
+    },
+
+    {
+        "model": "authors.author",
+        "pk": "Robert Cecil Martin",
+        "fields": {
+            "year_born": 1711,
+            "year_died": 1822,
+            "country": "Japan",
+            "books_written": 4
+        }
+    }
+]
